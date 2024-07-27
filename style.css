@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f4f8;
+}
+
+#app {
+    width: 350px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+input, button {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input {
+    font-size: 16px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#authMessage {
+    color: #dc3545;
+}
+
+#resultMessage {
+    font-weight: bold;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+h3 {
+    color: #333;
+}
+
+#question {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#answers button {
+    background-color: #28a745;
+    margin-bottom: 5px;
+    color: white;
+}
+
+#answers button:hover {
+    background-color: #218838;
+}
